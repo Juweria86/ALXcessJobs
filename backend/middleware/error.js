@@ -1,4 +1,4 @@
-import ErrorResponse from "../utils/errorResponse";
+import ErrorResponse from "../utils/errorResponse.js";
 
 const errorHandler = (err, req, res, next) => {
     // Make a copy of the error object and retain the original message
